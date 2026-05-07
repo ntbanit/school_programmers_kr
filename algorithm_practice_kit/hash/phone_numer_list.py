@@ -1,5 +1,5 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/42577
-# USING HASH 
+# AI SOLUTION : USING HASH 
 def solution(phone_book):
     word_set = set(phone_book)
     for word in phone_book:
@@ -9,10 +9,16 @@ def solution(phone_book):
     
     return True
 
-# SORTING 
+# AI SOLUTION : SORTING 
 def solution2(words):
     words.sort()
     for i in range(len(words) - 1):
         if words[i + 1].startswith(words[i]) :
             return False
     return True 
+
+string = "ABCDEFGH"
+print(string[:])
+print(string[2:5])
+print(string[2:])
+print(string[:5])
